@@ -1,0 +1,18 @@
+<h1>DashBoard</h1>
+
+<img [src]="url"
+     width="200px;"
+     alt="">
+<br>
+
+<app-card (selectImage)="zoomImage($event)"
+          [image]="'https://media2.giphy.com/media/13fjcmvKo45MBO/200.webp?cid=3640f6095bfdd8cf444e364f3270ccff'">
+</app-card>
+
+<app-card (selectImage)="zoomImage($event)"
+          [image]="'https://media2.giphy.com/media/Um7TeqbaS33Ww/200w.webp?cid=3640f6095bfddfbe33334c424d2dc8c8'">
+</app-card>
+
+<app-card (selectImage)="zoomImage($event)"
+          [image]="'https://media1.giphy.com/media/4Zo41lhzKt6iZ8xff9/giphy.webp?cid=3640f6095bfde03e503035382e3262b2'">
+</app-card>

@@ -14,4 +14,8 @@ export class MyComponentComponent implements OnInit {
 	constructor() {}
 
 	ngOnInit() {}
+
+	onKeyUp(event) {
+		console.log(event.target.value);
+	}
 }
